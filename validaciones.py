@@ -1,8 +1,8 @@
 
-lista_estudiantes = [""] * 3
-lista_genero = [""] * 3
-lista_legajos = [0] * 3
-lista_notas = [0] * 5
+#lista_estudiantes = [""] * 3
+#lista_genero = [""] * 3
+#lista_legajos = [0] * 3
+#lista_notas = [0] * 5
 
 
 
@@ -41,7 +41,7 @@ def cargar_datos(lista_estudiantes, lista_legajos, lista_genero, lista_notas):
             validar_notas(lista_notas, i)
     print("Carga finalizada correctamente.\n")
 
-cargar_datos(lista_estudiantes, lista_legajos, lista_genero, lista_notas)
+#cargar_datos(lista_estudiantes, lista_legajos, lista_genero, lista_notas)
 
 
 

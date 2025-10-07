@@ -12,6 +12,7 @@ def inicializar_matriz(cantidad_filas:int, cantidad_columnas:int, valor_inicial:
     for indice in range(cantidad_filas): #recorre cada fila de la matriz 
         fila = [valor_inicial] * cantidad_columnas
         matriz += [fila] # Agrego la fila cargada a la matriz 
+        
     return matriz
 
 def cargar_notas_en_matriz(matriz:list):

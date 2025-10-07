@@ -16,7 +16,7 @@ MENÚ PRINCIPAL
 8. Salir
 ==================================
 Opcion: """
-    
+
 
 def mostrar_menu(menu):
     matriz = []
@@ -24,11 +24,10 @@ def mostrar_menu(menu):
         opcion_seleccionada = input(menu)
         match opcion_seleccionada:
             case "1":
-                cargar_datos(lista_estudiantes, lista_legajos, lista_genero, lista_notas)
-                # matriz = inicializar_matriz(3,5,None)
-                # cargar_notas_en_matriz(matriz)
-                # print("Notas: ")
-                # mostrar_matriz(matriz)
+                matriz = inicializar_matriz(3,5,None)
+                cargar_notas_en_matriz(matriz)
+                print("Notas: ")
+                mostrar_matriz(matriz)
             case "2":
                 mostrar_estudiantes_activos(lista_estudiantes, lista_genero, lista_legajos,lista_estados, lista_notas)
                 mostrar_un_estudiante(lista_estudiantes, lista_genero, lista_legajos,lista_estados, lista_notas, 2)
